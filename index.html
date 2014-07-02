@@ -3,17 +3,18 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content=" FILL ME IN ">
+    <meta name="description" content="Cloud Chen's simple project protfolio hosted on GitHub">
     <meta name="author" content="Cloud Chen">
     <title>Cloud Chen: Portfolio</title>
 
-    <!-- Hmm, what is the impact of web fonts on speed? Measure it... -->
-    <link href="//fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet">
-
     <link href="css/style.css" rel="stylesheet">
-    <link href="css/print.css" rel="stylesheet" media="print">
-
     <!-- TODO: replace with Google Tag Manager with async attribute -->
+    <link href="css/mobile.css" rel="stylesheet" media="(max-width:480px)">
+    <link href="css/print.css" rel="stylesheet" media="print">
+    <link async href="//fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet">
+
+    <script async src="http://www.google-analytics.com/analytics.js"></script>
+    <script async src="js/perfmatters.js"></script>
     <script>
       (function(w,g){w['GoogleAnalyticsObject']=g;
       w[g]=w[g]||function(){(w[g].q=w[g].q||[]).push(arguments)};w[g].l=1*new Date();})(window,'ga');
@@ -22,39 +23,43 @@
       ga('create', 'UA-XXXX-Y');
       ga('send', 'pageview');
     </script>
-    <script async src="http://www.google-analytics.com/analytics.js"></script>
-    <script async src="js/perfmatters.js"></script>
   </head>
 
   <body>
     <header>
-      <a href="/"><img src="img/profilepic.jpg"></a>
-      <p>Cloud Chen<br><span>Android Developer</span></p>
+      <a href="/"><img src="img/profilepic.jpg" width="70px" height="70px"></a>
+      <p>Cloud Chen<br><span>Android Developer at Starktech Co., Ltd.</span></p>
     </header>
 
     <div class="container">
       <div class="hero">
-        <strong>I love web development!</strong> This is a template for a simple portfolio. I decided to use it to showcase a few Udacity courses I've taken and some teaching work, but you can use it to showcase any kind of project that you want the world to see :) <br> Contact me: sinergy.tw@gmail.com
+        <strong>I love web development!</strong> This is a template for a simple portfolio. I decided to use it to showcase a few Udacity courses I've taken and some teaching work, but you can use it to showcase any kind of project that you want the world to see :) <br><br> Contact me: sinergy.tw@gmail.com
       </div>
 
       <div class="content">
         <ul>
           <li>
-            <img src="https://lh5.ggpht.com/fDU9wOu-XF_FLJJUkLR0ur-8b3bBtnS3dc0YWq0czwmmxuU87ySjf0VMqmw05xotlx29M8eSdluxJnwjZt8=s100">
-            <a href="project-2048.html">Build Your Own 2048!</a>
-            <p>I made my own version of 2048. How cool is that!?</p>
+            <img src="img/ic_logo_jti.png" width="72px" height="72px">
+            <a href="project-2048.html">JTI 傑太萬事通</a>
+            <p>Enterprise Android application of <a href="//www.jti.com">JTI</a> (Japan Tobacco International).</p>
           </li>
 
           <li>
-            <img src="https://lh6.ggpht.com/f_0W8h__3G99CWTjnMjD8BUKm7yp2-wJyApLtTwFoFtlal2ULf_JgHIsOQq2NiYfKOdMlXlMHDKNo5XVZLs=s100">
-            <a href="project-webperf.html">Website Performance Optimization</a>
-            <p>Hey... this class looks familiar.</p>
+            <img src="img/ic_logo_hct_logistics.png" width="72px" height="72px">
+            <a href="project-webperf.html">HCT Logistics 新竹物流</a>
+            <p>Enterprise Android application of <a href="//www.hct.com.tw">HCT</a>.</p>
           </li>
 
           <li>
-            <img src="https://lh5.ggpht.com/IKdCmTWn8a2nMhlwMYzryvzRN5CUZAOBr4tDrEAbszV7TIFe9pRAInA4kkYcgTXwrifJsBEsq1agTueuu-g=s100">
-            <a href="project-mobile.html">Mobile Web Development</a>
-            <p>Making mobile apps isn't so hard after all.</p>
+            <img src="img/ic_logo_skittles.jpg" width="72px" height="72px">
+            <a href="//play.google.com/store/apps/details?id=tw.com.starktech.skittles">Skittles彩虹照反</a>
+            <p>Android app for promotional campaign. My 1st Android app on Google Play.</p>
+          </li>
+
+          <li>
+            <img src="img/stark_icon.png" width="100px" height="48px">
+            <a href="//www.starktech.com.tw/">Starktech Co., Ltd.</a>
+            <p>Offical web site I built (programming part) for my current company.</p>
           </li>
         </ul>
     </div>
